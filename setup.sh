@@ -201,7 +201,8 @@ cp $HOME/Desktop/App-Installer.desktop $HOME/../usr/share/applications
 setup_termux_x11() {
 # Install Termux-X11
 
-wget https://github.com/termux/termux-x11/releases/download/nightly/termux-x11-nightly-1.03.00-0-all.deb
+#wget https://github.com/termux/termux-x11/releases/download/nightly/termux-x11-nightly-1.03.00-0-all.deb
+wget https://github.com/termux/termux-x11/releases/download/nightly/termux-x11-nightly-1.03.01-0-all.deb
 dpkg -i termux-x11-nightly-1.03.00-0-all.deb
 rm termux-x11-nightly-1.03.00-0-all.deb
 #apt-mark hold termux-x11-nightly
